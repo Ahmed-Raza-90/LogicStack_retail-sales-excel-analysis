@@ -28,13 +28,13 @@ Based on the analysis, the following observations were made:
 ## Visualizations
 The analysis includes:
 - **Bar Chart**: Total Sales by Product Category (seen in 'Charts' sheet).
-![Sales By Category](images/image_name.png)
+![Sales By Category](Chart ScreenShots/Sales Category.png)
 
 - **Column Chart**: Total Quantity Sold by Product Category.
-![Sales By Category](images/image_name.png)
+![Quantity Sold by Product Category](Chart ScreenShots/Quantity Sold by Product Category.png)
 
 - **Pie Chart**: Sales distribution by Gender.
-![Sales By Category](images/image_name.png)
+![Sales By Gender](Chart ScreenShots/Sales by Gender.png)
 
 ---
 *Project completed as part of data analysis training.*
