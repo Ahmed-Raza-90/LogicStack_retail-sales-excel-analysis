@@ -36,7 +36,7 @@ The analysis includes the following visualizations:
 ![](Chart%20ScreenShots/Quantity%20Sold%20by%20Product%20Category.png)
 
 ### 3. Sales Distribution by Gender
-![](Chart%20ScreenShots/Sales%20by%20Gender.png)
+![](Chart%20ScreenShots/Sales%20by%20Gender .png)
 
 ---
 *Project completed as part of data analysis training.*
