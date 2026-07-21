@@ -499,3 +499,260 @@ Through this project, I learned:
 ---
 
 *Project completed as part of the LogicStack Data Analysis Internship – Week 3.*
+
+# 📊 Funnel Analysis Dashboard
+
+## 📅 Week 4 – SQL (PostgreSQL) & Power BI
+
+## 📌 Project Overview
+
+This project focuses on analyzing user behavior across a digital platform using **PostgreSQL** and **Microsoft Power BI**. The objective was to explore user interactions, analyze the conversion funnel, identify user drop-off points, evaluate revenue performance, and build an interactive dashboard that provides actionable business insights.
+
+This project was completed as the **final week** of the LogicStack Data Analysis Internship, where I worked as a Junior Data Analyst to solve a real-world business scenario using SQL and Power BI.
+
+---
+
+# 🎯 Objectives
+
+During this project, the following objectives were completed:
+
+- Explore and analyze user event data using SQL.
+- Understand the customer conversion funnel.
+- Identify the biggest user drop-off points.
+- Analyze revenue by region, channel, and device.
+- Find top-performing users and marketing channels.
+- Build an interactive Power BI dashboard.
+- Generate business insights and recommendations.
+
+---
+
+# 🛠️ Tools Used
+
+### PostgreSQL
+
+- Data Exploration
+- SQL Queries
+- Funnel Analysis
+- Revenue Analysis
+- Business Insights
+- Drop-off Analysis
+
+### Microsoft Power BI
+
+- KPI Cards
+- Funnel Chart
+- Bar Chart
+- Column Chart
+- Pie Chart
+- Line Chart
+- Dashboard Design
+
+### GitHub
+
+- Version Control
+- Documentation
+
+---
+
+# 📂 Project Structure
+
+```text
+Week 4/
+│
+├── Dataset/
+│   └── client_site_dataset.csv
+│
+├── charts/
+│   ├── Device Distribution.png
+│   ├── Revenue By Channel.png
+│   ├── Revenue By Region.png
+│   ├── Revenue Trend Line Chart.png
+│   └── User Journey Funnel.png
+│
+├── Dashboard.png
+├── FunnelAnalysis.pbix
+└── Funnel_Analysis.sql
+```
+
+---
+
+# 🗄️ SQL Tasks
+
+## Task 1 — Data Exploration
+
+Performed the following analysis:
+
+- Calculated total rows in the dataset.
+- Counted unique users.
+- Counted unique sessions.
+- Listed all available event types.
+
+---
+
+## Task 2 — Funnel Stage Analysis
+
+Performed:
+
+- Counted total events by event type.
+- Counted unique users for each event.
+- Calculated conversion rate from Browse to Purchase.
+
+---
+
+## Task 3 — Revenue Analysis
+
+Analyzed:
+
+- Total Revenue
+- Revenue by Region
+- Revenue by Marketing Channel
+- Revenue by Device
+
+---
+
+## Task 4 — Business Insights
+
+Generated:
+
+- Top 5 Users by Revenue
+- Best Performing Marketing Channel
+- Highest Revenue Region
+- Device with Highest Purchase Count
+
+---
+
+## Task 5 — Drop-off Analysis
+
+Performed:
+
+- User count at every funnel stage.
+- Identified the biggest funnel drop-off.
+- Found the event with the lowest conversion.
+
+---
+
+# 📊 Power BI Dashboard
+
+The dashboard was designed following modern business dashboard practices to monitor user behavior and business performance.
+
+## Dashboard Title
+
+**Funnel Analysis Dashboard**
+
+---
+
+## KPI Cards
+
+The dashboard includes:
+
+- Total Users
+- Total Revenue
+- Total Events
+- Total Purchases
+
+---
+
+## Dashboard Visualizations
+
+### 📌 User Journey Funnel
+
+Displays the complete customer journey from **Browse** to **Purchase**, helping identify where users leave the funnel.
+
+![](Week%204/charts/User%20Journey%20Funnel.png)
+
+---
+
+### 📌 Revenue by Channel (Bar Chart)
+
+Compares total revenue generated from different marketing channels.
+
+![](Week%204/charts/Revenue%20By%20Channel.png)
+
+---
+
+### 📌 Revenue by Region (Column Chart)
+
+Displays revenue generated across different regions.
+
+![](Week%204/charts/Revenue%20By%20Region.png)
+
+---
+
+### 📌 Device Distribution (Pie Chart)
+
+Shows user distribution across different devices.
+
+![](Week%204/charts/Device%20Distribution.png)
+
+---
+
+### 📌 Revenue Trend (Line Chart)
+
+Visualizes revenue trends over event time.
+
+![](Week%204/charts/Revenue%20Trend%20Line%20Chart.png)
+
+---
+
+### 📌 Business Insights Panel
+
+Includes:
+
+- Biggest Funnel Drop-off
+- Best Performing Channel
+- Most Valuable User Segment
+
+---
+
+# 🖥️ Power BI Dashboard Preview
+
+![](Week%204/Dashboard.png)
+
+---
+
+# 📌 SQL Insights
+
+1. Around **10,000 users** entered the funnel, but only about **1,000 users** completed a purchase.
+2. The largest user drop-off occurred between the **Checkout** and **Purchase** stages.
+3. Google Ads generated the highest revenue among all marketing channels.
+4. The South region produced the highest overall revenue.
+5. Desktop users recorded the highest number of completed purchases.
+
+---
+
+# 📊 Dashboard Insights
+
+1. The overall purchase conversion rate is relatively low, indicating significant user loss before the final purchase.
+2. Google Ads is the most effective marketing channel in terms of revenue generation.
+3. Users from the South region contribute the largest share of total revenue.
+4. Desktop devices account for the largest portion of completed purchases.
+5. Revenue remains relatively stable over time with only minor fluctuations.
+
+---
+
+# 💡 Business Recommendations
+
+- Optimize the checkout process to reduce user abandonment before purchase.
+- Increase investment in the highest-performing marketing channel to maximize revenue.
+- Analyze lower-performing devices and regions to improve conversion rates and overall business performance.
+
+---
+
+# 🚀 Learning Outcomes
+
+Through this project, I learned:
+
+- Writing SQL queries using PostgreSQL
+- Data Exploration using SQL
+- Funnel Analysis
+- Conversion Rate Analysis
+- Revenue Analysis
+- Business Insight Generation
+- Building Interactive Power BI Dashboards
+- KPI Development
+- Data Storytelling
+- Business Decision Making using Data
+
+---
+
+*Project completed as the Final Project of the LogicStack Data Analysis Internship – Week 4.*
